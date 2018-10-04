@@ -12,8 +12,8 @@
 #define JUST_CREEPER_CONSTS_H
 
 // motor speed sensor pins
-const byte LEFT_SENSOR_PIN = PINH3;  // Arduino pin 6
-const byte RIGHT_SENSOR_PIN = PINH4; // Arduino pin 7
+const byte LEFT_SENSOR_PIN = PINH3;  // Arduino pin 16
+const byte RIGHT_SENSOR_PIN = PINH4; // Arduino pin 17
 #define SENSOR_PORT PINH // Do not use "const byte" here, it's not work
 
 // motor driver pins
