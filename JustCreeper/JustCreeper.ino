@@ -617,10 +617,6 @@ void loop() {
     Edit();
     CheckBat();
   }
-  /*int d1 = GetSonarDistance(TRIG_1_PIN, ECHO_1_PIN); // ok
-  int d2 = GetSonarDistance(TRIG_2_PIN, ECHO_2_PIN); // don't work
-  int d3 = GetSonarDistance(TRIG_3_PIN, ECHO_3_PIN); // ok
-  int d4 = GetSonarDistance(TRIG_4_PIN, ECHO_4_PIN);*/ // ok
 
   LOGn("");
 }
